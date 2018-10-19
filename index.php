@@ -81,7 +81,7 @@
 
      <!--Sous-catégories en lien avec les marques-->
     <div class="row" id="all-modeles">
-      <div id="audi" class="collapse container-fluid" data-parent="#groupLo">
+      <div id="audi" class="collapse show container-fluid" data-parent="#groupLo">
         <div class="titre"><img class="mini_logo" src="voiture/audi/Audi.png" alt="Audi">
           <h4>Audi</h4>
         </div>
@@ -244,4 +244,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>
