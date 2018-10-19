@@ -47,6 +47,10 @@ div.titre {
   width: 50px;
   display: inline-block;
 }
+.img-head{
+  height: 500px;
+  object-fit: cover;
+}
 
 #all-modeles {
   margin: 0 40px;
