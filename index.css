@@ -37,7 +37,7 @@ div.titre {
 
 .img-modeles {
   width: 99%;
-  height: 400px;
+  height: 250px;
   object-fit: cover;
   display: block;
   margin-bottom: 10px;
@@ -48,9 +48,10 @@ div.titre {
   display: inline-block;
 }
 .img-head{
-  height: 500px;
+  height: 400px;
   object-fit: cover;
 }
+
 
 #all-modeles {
   margin: 0 40px;
