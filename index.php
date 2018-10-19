@@ -1,12 +1,13 @@
 <!doctype html>
 <html lang="en">
-<head>
-/*
+<!--
 * Authors : IONITA Mathias, GUENOT Fabien, BEZIAT Audrey.
 * Team : 3
 * Event : IPI HACKATHON
 * Year : 2018
-*/
+-->
+<head>
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -21,7 +22,7 @@
     <img src="salon/e_auto.png" class="mx-auto d-block" />
   </nav>
 
-  /*Carroussel bootstrap 3 slide*/
+  <!--Carroussel bootstrap 3 slide*/-->
   <div id="fadeC" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -43,8 +44,7 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-
-  /*Catégories marques avec liens collapse*/
+ <!--Catégories marques avec liens collapse-->
   <div id="groupLo" class="container-fluid">
     <div class="row">
       <div class="col-4">
@@ -79,7 +79,7 @@
       </div>
     </div>
 
-    /*Sous-catégories en lien avec les marques*/
+     <!--Sous-catégories en lien avec les marques-->
     <div class="row" id="all-modeles">
       <div id="audi" class="collapse container-fluid" data-parent="#groupLo">
         <div class="titre"><img class="mini_logo" src="voiture/audi/Audi.png" alt="Audi">
