@@ -1,0 +1,75 @@
+/*
+* Authors : IONITA Mathias, GUENOT Fabien, BEZIAT Audrey.
+* Event : IPI HACKATHON
+* Year : 2018
+* Team : 3
+*
+* Ajustement des classes et identifiants sur les éléments HTLM*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.col-4 {
+  padding-bottom: 20px;
+}
+
+.img-marques {
+  max-width: 100%;
+  max-height: 200px;
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
+
+h4 {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+div.titre {
+  border-bottom: 3px solid #090e12;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.img-modeles {
+  width: 99%;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.mini_logo {
+  width: 50px;
+  display: inline-block;
+}
+
+#all-modeles {
+  margin: 0 40px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+.rs-footer {
+  width: 30px;
+}
+
+footer {
+  margin-top: 100px;
+}
+
+@@media (min-width: 1080px) {
+  .img-modeles {
+    height: 250px;
+  }
+}
