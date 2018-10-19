@@ -7,7 +7,6 @@
 * Year : 2018
 -->
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,17 +21,17 @@
     <img src="salon/e_auto.png" class="mx-auto d-block" />
   </nav>
 
-  <!--Carroussel bootstrap 3 slide*/-->
+ <!--Carroussel bootstrap 3 slide-->
   <div id="fadeC" class="carousel slide carousel-fade" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img class="d-block w-100" src="salon/salon_2.jpg" alt="First slide">
+        <img class="img-head d-block w-100" src="salon/salon_2.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="salon/salon_1.jpg" alt="Second slide">
+        <img class="img-head d-block w-100" src="salon/salon_1.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="salon/salon_3.jpg" alt="Third slide">
+        <img class="img-head d-block w-100" src="salon/salon_3.jpg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#fadeC" role="button" data-slide="prev">
@@ -44,7 +43,8 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
- <!--Catégories marques avec liens collapse-->
+
+   <!--Catégories marques avec liens collapse-->
   <div id="groupLo" class="container-fluid">
     <div class="row">
       <div class="col-4">
